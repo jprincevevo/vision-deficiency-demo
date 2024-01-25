@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        /* padding: 0;
+        margin: 0; */
+      }
+
+      .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+      }
+
+      .nav button {
+        background-color: #0066cc;
+        border: 1px solid #111;
+        color: white;
+        padding: 4px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #004080;
+        }
+      }
+
+      button#none {
+        background-color: #cccccc;
+        color: #333;
+
+        &:hover {
+          background-color: #aaaaaa;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <button type="button" class="vision-deficiency-type-btn" id="none">None</button>
+      <button type="button" class="vision-deficiency-type-btn" id="blurredVision">Blurred vision</button>
+      <button type="button" class="vision-deficiency-type-btn" id="reducedContrast">Reduced contrast</button>
+      <button type="button" class="vision-deficiency-type-btn" id="achromatopsia">Achromatopsia</button>
+      <button type="button" class="vision-deficiency-type-btn" id="deuteranopia">Deuteranopia</button>
+      <button type="button" class="vision-deficiency-type-btn" id="protanopia">Protanopia</button>
+      <button type="button" class="vision-deficiency-type-btn" id="tritanopia">Tritanopia</button>
+    </nav>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

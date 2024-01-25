@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Vision Deficiency Simulator",
+  "description": "Vision Deficiency Simulator",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["debugger", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
